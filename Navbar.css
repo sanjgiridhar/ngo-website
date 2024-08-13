@@ -1,0 +1,55 @@
+/* NavBar.css */
+
+nav {
+    
+    background-color: rgba(8,0,58,1); /* Dark background color */
+    padding: 0.5rem 2rem; /* Padding around the nav */
+    color: white; /* Default text color */
+    z-index:10;
+    position: fixed;
+    width:100%;
+    
+  }
+  
+ 
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+   
+  }
+  
+  nav ul li {
+    margin: 0 1.4rem; /* Spacing between the list items */
+    font-weight: medium;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: color 0.3s ease; 
+    display:inline-block;
+  }
+  
+  nav ul li:hover {
+    color:#28ffac;
+    
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    nav ul li {
+      margin: 0.5rem 0; /* Space between items in mobile view */
+    }
+  }
+  

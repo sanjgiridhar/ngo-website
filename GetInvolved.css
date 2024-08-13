@@ -1,0 +1,53 @@
+.get-involved {
+    height: 80vh; 
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/donate.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .involved-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .involved-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .involved-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color:  #009a5f; 
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+  
+  .involved-button img {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .involved-button:hover img{
+    transform: rotate(90deg);
+  }
+  
